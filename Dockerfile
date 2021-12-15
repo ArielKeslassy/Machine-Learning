@@ -14,7 +14,7 @@ FROM ubuntu:latest
 RUN set -xe \
     && apt-get update -y \
     && apt-get install - y python3-pip
-RUN pip3 install --upgrade pip
+RUN pip install --upgrade pip
 RUN mkdir /workspace/ && cd /workspace/ && git clone https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.git && cd pytorch-CycleGAN-and-pix2pix && pip install -r requirements.txt
 
 WORKDIR /workspace
