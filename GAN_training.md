@@ -24,5 +24,6 @@
   - configuration: gen_layers = 3, dis_layers = 2, activation = ReLU, gen_dropout = False, dis_dropout = False
   - results:
     - loss
-    - ![samples (bottom row in real data for comparison)](https://github.com/ArielKeslassy/Machine-Learning/blob/main/basic.png)
+    - samples (bottom row in real data for comparison)
+    ![](https://github.com/ArielKeslassy/Machine-Learning/blob/main/basic.png)
 - Activation functions: 
